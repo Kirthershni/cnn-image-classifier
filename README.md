@@ -142,6 +142,10 @@ Example graphs:
 
 # Predictions
 The trained model can predict classes for new images in the seg_pred folder.
+![Image1](Image1.png)
+![Image2](Image2.png)
+![Image3](Image3.png)
+![Image4](Image4.png)
 
 
 # Conclusion
