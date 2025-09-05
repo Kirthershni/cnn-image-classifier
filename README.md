@@ -8,34 +8,37 @@ Evaluating the model using accuracy/loss plots
 Predicting classes for new images
 
 # Dataset
-The dataset is organized inside the 'archive' folder as follows:
-archive/
-├── train/ # Images used for training the model
-│ ├── category1-buildings/
-│ │ ├── img1.jpg
-│ │ ├── img2.jpg
-│ │ └── ...
-│ ├── category2-mountains/
-│ │ ├── img1.jpg
-│ │ ├── img2.jpg
-│ │ └── ...
-│ └── ...
-├── test/ # Images used for testing/validating the model
-│ ├── category1-buildings/
-│ │ ├── img1.jpg
-│ │ ├── img2.jpg
-│ │ └── ...
-│ ├── category2-mountains/
-│ │ ├── img1.jpg
-│ │ ├── img2.jpg
-│ │ └── ...
-│ └── ...
-└── pred/ # Images used for making predictions
-├── img1.jpg
-├── img2.jpg
-├── img3.jpg
-├── img4.jpg
-└── ...
+
+The dataset is organized inside the `archive` folder as follows:
+
+**Train folder** – Images used for training the model:  
+- `category1-buildings/`  
+  - `img1.jpg`  
+  - `img2.jpg`  
+  - …  
+- `category2-mountains/`  
+  - `img1.jpg`  
+  - `img2.jpg`  
+  - …  
+- …  
+
+**Test folder** – Images used for testing/validation:  
+- `category1-buildings/`  
+  - `img1.jpg`  
+  - `img2.jpg`  
+  - …  
+- `category2-mountains/`  
+  - `img1.jpg`  
+  - `img2.jpg`  
+  - …  
+- …  
+
+**Prediction folder (`pred`)** – Images used for making predictions:  
+- `img1.jpg`  
+- `img2.jpg`  
+- `img3.jpg`  
+- `img4.jpg`  
+- …
 
 # Dataset Description
 **Source:** Intel Image Classification Dataset  
