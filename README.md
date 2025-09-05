@@ -39,13 +39,15 @@ img4.jpg
 ...
 
 # Dataset Description
-Source: Intel Image Classification Dataset
-Structure:
-seg_train/      # Training images organized by class
-seg_test/       # Test images organized by class
-seg_pred/       # Images for prediction
-Image size: Variable, resized to 150×150 for training
-Classes: 6
+**Source:** Intel Image Classification Dataset  
+
+**Structure:**
+- `seg_train/` — Training images organized by class  
+- `seg_test/` — Test images organized by class  
+- `seg_pred/` — Images for prediction  
+
+**Image size:** Variable, resized to 150×150 for training  
+**Classes:** 6
 
 # How to run
 This project is designed to run in Google Colab.
