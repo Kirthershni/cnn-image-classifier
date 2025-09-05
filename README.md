@@ -2,10 +2,10 @@
 Image classification with Convolution Neural Networks(CNNs)    
 This project uses a Convolution Neural Network to classify images among  different categories like buildings, sea, glaciers, mountains, sea and forest.
 The notebook demonstrates:
-Dataset preprocessing
-Training a CNN
-Evaluating the model using accuracy/loss plots
-Predicting classes for new images
+- Dataset preprocessing
+- Training a CNN
+- Evaluating the model using accuracy/loss plots
+- Predicting classes for new images
 
 # Dataset
 
@@ -127,12 +127,12 @@ This project is designed to run in Google Colab.
 - **Batch Size:** 32 (from train_generator)
 
 # Evaluation
-Test accuracy printed after evaluation.
-Accuracy and loss graphs plotted for train vs validation.
+- Test accuracy printed after evaluation.
+- Accuracy and loss graphs plotted for train vs validation.
 
 # Training and Evaluation
-The model is trained on seg_train and validated on seg_test.
-Training vs Validation Accuracy and Loss are plotted for performance analysis.
+- The model is trained on seg_train and validated on seg_test.
+- Training vs Validation Accuracy and Loss are plotted for performance analysis.
 Example graphs:
 
 ### Accuracy
@@ -147,6 +147,6 @@ The trained model can predict classes for new images in the seg_pred folder.
 
 
 # Conclusion
-Successfully implemented a CNN for multi-class image classification.
-Model achieved high test accuracy and can predict unseen images reliably.
-Accuracy and loss plots show stable learning without severe overfitting.
+- Successfully implemented a CNN for multi-class image classification.
+- Model achieved high test accuracy and can predict unseen images reliably.
+- Accuracy and loss plots show stable learning without severe overfitting.
