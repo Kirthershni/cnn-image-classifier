@@ -132,7 +132,7 @@ Example graphs:
 ### Accuracy
 ![Training vs Validation Accuracy](Training%20vs%20Validation%20Accuracy.png)
 ### Loss
-![Training vs Validation Loss](Training%20vs%20Validation%20Loss.png)
+![Training vs Validation Loss](Training%20vs%20Validation%20loss.png)
 
 # Predictions
 The trained model can predict classes for new images in the seg_pred folder.
