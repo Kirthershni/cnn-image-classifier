@@ -130,13 +130,13 @@ Training vs Validation Accuracy and Loss are plotted for performance analysis.
 Example graphs:
 
 ### Accuracy
-![Training vs Validation Accuracy](training%20vs%20validation%20accuracy.png)
+![Training vs Validation Accuracy](Training%20vs%20Validation%20Accuracy.png)
 ### Loss
-![Training vs Validation Loss](training%20vs%20validation%20loss.png)
+![Training vs Validation Loss](Training%20vs%20Validation%20Loss.png)
 
 # Predictions
 The trained model can predict classes for new images in the seg_pred folder.
-Example predictions are displayed along with their corresponding image.
+
 
 # Conclusion
 Successfully implemented a CNN for multi-class image classification.
