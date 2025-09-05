@@ -85,38 +85,38 @@ This project is designed to run in Google Colab.
    
 # Model Architecture 
 1. Input Layer
-   Shape: (150, 150, 3)
-   Accepts RGB images resized to 150×150.
+   - Shape: (150, 150, 3)
+   - Accepts RGB images resized to 150×150.
 
 2. Conv2D Layer 1
-   Filters: 32, Kernel: 3×3, Activation: ReLU
-   Purpose: Extract low-level features like edges and textures.
+   - Filters: 32, Kernel: 3×3, Activation: ReLU
+   - Purpose: Extract low-level features like edges and textures.
 
 3. MaxPooling2D Layer 1
-   Pool size: 2×2
-   Reduces spatial dimensions and computation.
+   - Pool size: 2×2
+   - Reduces spatial dimensions and computation.
 
 4. Conv2D Layer 2
-   Filters: 64, Kernel: 3×3, Activation: ReLU
-   Extracts higher-level features.
+   - Filters: 64, Kernel: 3×3, Activation: ReLU
+   - Extracts higher-level features.
 
 5. MaxPooling2D Layer 2
-   Pool size: 2×2
+  - Pool size: 2×2
 
 6. Flatten Layer
-   Converts 2D feature maps into 1D vector for Dense layers.
+   - Converts 2D feature maps into 1D vector for Dense layers.
 
 7. Dense Layer 1
-   Units: 128, Activation: ReLU
-   Learns high-level feature representations.
+   - Units: 128, Activation: ReLU
+   - Learns high-level feature representations.
 
 8. Dropout Layer
-   Rate: 0.5
-   Helps prevent overfitting.
+   - Rate: 0.5
+   - Helps prevent overfitting.
 
 9. Output Dense Layer
-   Units: 6 (number of classes), Activation: Softmax
-   Produces probability distribution over 6 classes.
+   - Units: 6 (number of classes), Activation: Softmax
+   - Produces probability distribution over 6 classes.
 
 # Training details
 - **Optimizer:** Adam  
