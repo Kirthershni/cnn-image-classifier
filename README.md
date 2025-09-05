@@ -101,7 +101,7 @@ This project is designed to run in Google Colab.
    - Extracts higher-level features.
 
 5. MaxPooling2D Layer 2
-  - Pool size: 2×2
+   - Pool size: 2×2
 
 6. Flatten Layer
    - Converts 2D feature maps into 1D vector for Dense layers.
