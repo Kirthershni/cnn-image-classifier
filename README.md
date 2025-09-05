@@ -74,9 +74,9 @@ This project is designed to run in Google Colab.
 
 4. Evaluate the model
    - Check the model’s performance using accuracy and loss graphs on the test set.
-     Training Accuracy : 69.55%
-     Validation Accuracy : 75.87%
-     Test Accuracy :  75.40%
+     **Training Accuracy:** 69.55%
+     **Validation Accuracy:** 75.87%
+     **Test Accuracy:**  75.40%
    
 5. Make predictions on new images
    - Use images in archive/pred to predict their categories.
@@ -118,11 +118,12 @@ This project is designed to run in Google Colab.
    Produces probability distribution over 6 classes.
 
 # Training details
-Optimizer: Adam, learning rate = 0.001
-Loss Function: Categorical Crossentropy
-Metrics: Accuracy
-Epochs: 5
-Batch Size: 32 (from train_generator)
+- **Optimizer:** Adam  
+- **Learning Rate:** 0.001  
+- **Loss Function:** Categorical Crossentropy  
+- **Metrics:** Accuracy  
+- **Epochs:** 5  
+- **Batch Size:** 32 (from train_generator)
 
 # Evaluation
 Test accuracy printed after evaluation.
