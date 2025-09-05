@@ -59,10 +59,10 @@ This project is designed to run in Google Colab.
    - Mount Google Drive in Colab using python
          from google.colab import drive
          drive.mount('/content/drive')
-   - Set datapaths
-     train_path = "/content/drive/My Drive/IntelDataset/seg_train"
-     test_path  = "/content/drive/My Drive/IntelDataset/seg_test"
-     pred_path  = "/content/drive/My Drive/IntelDataset/seg_pred"
+   - Set Datapaths
+     **train_path =** "/content/drive/My Drive/IntelDataset/seg_train"
+     **test_path  =** "/content/drive/My Drive/IntelDataset/seg_test"
+     **pred_path  =** "/content/drive/My Drive/IntelDataset/seg_pred"
      
 2. Preprocess the data
     - Resize images, normalize pixel values, and organize them for training and testing.
@@ -74,6 +74,7 @@ This project is designed to run in Google Colab.
 
 4. Evaluate the model
    - Check the model’s performance using accuracy and loss graphs on the test set.
+   - 
      **Training Accuracy:** 69.55%
      **Validation Accuracy:** 75.87%
      **Test Accuracy:**  75.40%
